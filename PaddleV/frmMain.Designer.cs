@@ -120,6 +120,7 @@
             this.btnSend.Text = "Send";
             this.toolTip1.SetToolTip(this.btnSend, "Send (ENTER)");
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // panel1
             // 

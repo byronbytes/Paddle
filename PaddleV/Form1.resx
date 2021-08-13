@@ -120,14 +120,4 @@
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="label3.Text" xml:space="preserve">
-    <value>This product is currently in closed alpha. 
-There will be a lot of bugs expected and functions to break.
-
-You can apply for a closed alpha code later, currently this is not for the public.
-If you lose your code you cannot recover it! (For now)</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

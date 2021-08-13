@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F1043AC9-BEA1-4668-B2C1-C384E568C772}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PaddleV</RootNamespace>
-    <AssemblyName>PaddleV</AssemblyName>
+    <RootNamespace>Paddle</RootNamespace>
+    <AssemblyName>Paddle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -92,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

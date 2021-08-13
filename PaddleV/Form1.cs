@@ -19,16 +19,16 @@ namespace PaddleV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (LoginBox.Text == "111008")
+            if (LoginBox.Text == "011108")
             {
                 frmMain f2 = new frmMain();
                 f2.Show();
                 //Registry
                 Microsoft.Win32.RegistryKey key;
-                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("PaddleV");
+                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("Paddle");
                 key.SetValue("LoginID", LoginBox.Text);
                 key.SetValue("SetUserName", "byron");
-                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("PaddleV");
+                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("Paddle");
 
 
             }
@@ -39,7 +39,7 @@ namespace PaddleV
                 f2.Show();
                 //Registry
                 Microsoft.Win32.RegistryKey key;
-                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("PaddleV");
+                key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("Paddle");
                 key.SetValue("LoginID", LoginBox.Text);
                 key.SetValue("SetUserName", "byron");
             }
