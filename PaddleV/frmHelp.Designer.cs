@@ -42,9 +42,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(411, 19);
+            this.label1.Size = new System.Drawing.Size(388, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "You probably clicked this by accident... but it\'s the Help Form / FAQ";
+            this.label1.Text = "This is the Help Form FAQ which can be accessed by clicking F1.";
             // 
             // label2
             // 
@@ -75,6 +75,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Report A Bug";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmHelp
             // 
